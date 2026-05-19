@@ -3,15 +3,15 @@ export const COLORS = {
 
   primary: "#4D81FF",
 
-  cardBlue: "#C7D2FE",
-  cardYellow: "#FDE68A",
-  cardPink: "#F9A8D4",
-  cardGreen: "#A7F3D0",
+  blue: "#0f3fff",
+  yellow: "#e3b600",
+  pink: "#F9A8D4",
+  green: "#00d672",
+
+  white: "#FFFFFF",
 
   text: "#111827",
   subText: "#6B7280",
-
-  white: "#FFFFFF",
 
   border: "#E5E7EB",
 
