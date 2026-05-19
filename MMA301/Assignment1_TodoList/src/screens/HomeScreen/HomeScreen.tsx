@@ -47,7 +47,7 @@ export default function HomeScreen() {
         completed: false,
       };
 
-      setTasks([newTask, ...tasks]);
+        setTasks((prev) => [newTask, ...prev]);
     }
 
     setText("");

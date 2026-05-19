@@ -25,7 +25,6 @@ export default function StatsCard({
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
