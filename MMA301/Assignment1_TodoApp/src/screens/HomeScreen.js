@@ -14,7 +14,7 @@ export default function HomeScreen({ navigation }) {
     if (activeTab === 'Completed') {
       return item.completed;
     }
-    return true;
+    return !item.completed;
   });
 
   const renderItem = ({ item }) => (
