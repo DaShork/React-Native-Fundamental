@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import Ionicons from '@expo/vector-icons/Ionicons';
 import styles from '../styles/styles';
 
 export default function TaskCard({ item, onPress, onEdit, onDelete }) {

@@ -94,7 +94,7 @@ export default StyleSheet.create({
   floatingButton: {
     position: 'absolute',
     right: 24,
-    bottom: 26,
+    bottom: 100,
     width: 62,
     height: 62,
     borderRadius: 31,

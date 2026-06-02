@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
-import { FlatList, SafeAreaView, Text, TouchableOpacity, View } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import { FlatList, Text, TouchableOpacity, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { TodoContext } from '../context/TodoContext';
 import TaskCard from '../components/TaskCard';
 import styles from '../styles/styles';
@@ -60,7 +61,7 @@ export default function HomeScreen({ navigation }) {
       </View>
 
       <TouchableOpacity style={styles.floatingButton} onPress={() => navigation.navigate('Add Todo')}>
-        <Ionicons name="add" size={32} color="#fff" />
+        <Ionicons name="add" size={24} color="#fff" />
       </TouchableOpacity>
     </SafeAreaView>
   );

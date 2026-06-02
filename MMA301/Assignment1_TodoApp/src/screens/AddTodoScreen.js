@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
-import { KeyboardAvoidingView, Platform, SafeAreaView, Text, TextInput, TouchableOpacity, View, Alert } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import { KeyboardAvoidingView, Platform, Text, TextInput, TouchableOpacity, View, Alert } from 'react-native';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { TodoContext } from '../context/TodoContext';
 import styles from '../styles/styles';
 
